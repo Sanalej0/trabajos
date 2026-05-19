@@ -1,0 +1,28 @@
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+      
+        int myInt = 10;
+        string texto = Convert.ToString(myInt);
+
+       
+        double myDouble = Convert.ToDouble(myInt);
+
+     
+        double numeroDecimal = 5.25;
+        int numeroEntero = Convert.ToInt32(numeroDecimal);
+
+     
+        bool estado = true;
+        string estadoTexto = Convert.ToString(estado);
+
+      
+        Console.WriteLine("Convert.ToString: " + texto);
+        Console.WriteLine("Convert.ToDouble: " + myDouble);
+        Console.WriteLine("Convert.ToInt32: " + numeroEntero);
+        Console.WriteLine("Convert.ToBoolean: " + estadoTexto);
+    }
+}
