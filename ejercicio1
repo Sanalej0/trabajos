@@ -1,0 +1,17 @@
+using System;
+
+public class ejercicio1
+{
+    public static void Main(string[] args)
+    {
+        // Variable double
+        double myDouble = 9.78;
+
+        // Conversión explícita de double a int
+        int myInt = (int) myDouble;
+
+        // Mostrar resultados
+        Console.WriteLine("Valor double: " + myDouble);
+        Console.WriteLine("Valor int: " + myInt);
+    }
+}
